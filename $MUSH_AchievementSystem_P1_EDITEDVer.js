@@ -841,7 +841,7 @@ Window_mushMenuAchievementCommand_P1.prototype.getRewardName = function (it, sd)
  //========================================================
      // ! [FOR MESSAGE] IF YOU WANT TO ADD ANOTHER REWARDS :
 //   } else if (s.category == 6) {
-//     var text = " " + " \\c[" + 27 + "]" + s.amount + " \\i[" + 2254 + "]";
+//     var text = your text goes here
 //     return text;
 //   }
 //========================================================
