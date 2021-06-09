@@ -1,2 +1,2 @@
-# RPG MAKER MV PLUGINS
-Plugin Packs for RPG MAKER MV
+# 🎇 RPG MAKER MV PLUGINS
+📜 Plugin Collections for RPG MAKER MV
