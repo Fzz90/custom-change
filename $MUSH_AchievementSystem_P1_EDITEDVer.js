@@ -12,9 +12,11 @@
 //
 // ========================================================================================================
 // * EDITED => Added EXP Rewards
-//          => Added Variables [2] Rewards (if you want to change your own variables, add/change line 1257) 
-//          => Added Colors and Icons in every rewards
+//          => Added Variables [2] Rewards 
+//          => Added Colors and Icons in every rewards (For Icons and Text Colors, I recommend to you to Install the Plugin Called "VE_ControlText" and put this plugin below it To Enable the Icons & Text Colors for the entire window
+//          => Design your own variables rewards! (if you want to add your own rewards, read line 842 & 1273) 
 //          => Changed Completion gauge color gradients
+//          => Since You've Added Your Own Rewards, Don't forget to add notes in line 306 ( Like I do in line 305 )
 // ========================================================================================================
 // * USAGE : This plugin is available for public usage provided the developer accepts the terms of the license
 //           of Kamo Studio Group, known as MushroomCake28 in the RPG Maker community.
@@ -301,6 +303,7 @@ MUSH_Achievements.prototype.createAchievementsList = function () {
     //
     //   - reward: Use the format: "type/index/amount".
     //     + type: 0 for items, 1 for armors, 2 for weapons, 3 for gold, 4 for EXP, 5 for Gem. Set it to -1 for no reward.
+    //     + (YOUR REWARD NOTES GOES HERE)
     //     + index: index of the item, armor or weapon. 0 for gold.
     //     + amount: amount of time you receive the item, armor, or weapon. Or the amount of gold.
     //       Here are some examples:
@@ -835,7 +838,14 @@ Window_mushMenuAchievementCommand_P1.prototype.getRewardName = function (it, sd)
   } else if (s.category == 5) {
     var text = " " + " \\c[" + 27 + "]" + s.amount + " \\i[" + 2254 + "]";
     return text;
-  } else {
+ //========================================================
+     // ! [FOR MESSAGE] IF YOU WANT TO ADD ANOTHER REWARDS :
+//   } else if (s.category == 6) {
+//     var text = " " + " \\c[" + 27 + "]" + s.amount + " \\i[" + 2254 + "]";
+//     return text;
+//   }
+//========================================================
+  else {
     return sd.textNoReward;
   }
 };
@@ -1259,6 +1269,12 @@ Game_Party.prototype.giveAchievementReward = function (dt, index) {
   } else if (rw.category == 5) {
     $gameVariables.setValue(2, $gameVariables.value(2) + rw.amount);
   }
+// ============================================
+// [REWARDS] IF YOU WANT TO ADD ANOTHER REWARDS :
+//   else if (rw.category == 6) {
+//   your rewards goes here
+//}
+// ============================================
 };
 
 Game_Party.prototype.getAchievementReward = function (rwd) {
