@@ -2,12 +2,20 @@
 //--------------------------------------------------------------------------------------------------------------
 // *** MUSHROOMCAKE28'S ACHIEVEMENT SYSTEM P1
 //  * Author: MushroomCake28
+//  * Edited by Fzz90
 //  * Contact: last.truong@hotmail.com
 //  * Version: 1.06 (2018-03-28)
 //--------------------------------------------------------------------------------------------------------------
 // * INFO : This script is creating the achievement system. The main scene is accessible through the main menu. It
 //          provides the player with the traditionnal achievements in-game. It is highly customizable by the developer
 //          directly in the code.
+//
+// ========================================================================================================
+// * EDITED => Added EXP Rewards
+//          => Added Variables [2] Rewards (if you want to change your own variables, add/change line 1257) 
+//          => Added Colors and Icons in every rewards
+//          => Changed Completion gauge color gradients
+// ========================================================================================================
 // * USAGE : This plugin is available for public usage provided the developer accepts the terms of the license
 //           of Kamo Studio Group, known as MushroomCake28 in the RPG Maker community.
 //--------------------------------------------------------------------------------------------------------------
