@@ -10,14 +10,14 @@
 //          provides the player with the traditionnal achievements in-game. It is highly customizable by the developer
 //          directly in the code.
 //
-// ========================================================================================================
+// ================================================================================================================
 // * EDITED => Added EXP Rewards
 //          => Added Variables [2] Rewards 
 //          => Added Colors and Icons in every rewards (For Icons and Text Colors, I recommend to you to Install the Plugin Called "VE_ControlText" and put this plugin below it To Enable the Icons & Text Colors for the entire window
 //          => Design your own variables rewards! (if you want to add your own rewards, read line 842 & 1273) 
 //          => Changed Completion gauge color gradients
 //          => Since You've Added Your Own Rewards, Don't forget to add notes in line 306 ( Like I do in line 305 )
-// ========================================================================================================
+// =================================================================================================================
 // * USAGE : This plugin is available for public usage provided the developer accepts the terms of the license
 //           of Kamo Studio Group, known as MushroomCake28 in the RPG Maker community.
 //--------------------------------------------------------------------------------------------------------------
