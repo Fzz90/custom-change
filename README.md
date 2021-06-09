@@ -1,2 +1,2 @@
 # rpg-maker-mv-plugins
-My Plugins for RPG MAKER MV
+Plugin Packs for RPG MAKER MV
