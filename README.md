@@ -1,2 +1,2 @@
-# 🎇 MY JS PLUGINS
+# 🎇 JS PLUGIN EDITS
 📜 Plugin Collections for RPG MAKER MV
