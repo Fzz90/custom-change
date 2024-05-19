@@ -145,17 +145,6 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
         Yanfly.Param.VHGDisplayActor = false;
         break;
 
-      // * Skill Level Customizable Gauge
-      // case "bronze-phase":
-      //   Yanfly.Param.SMLGauge1 = 3;
-      //   Yanfly.Param.SMLGauge2 = 11;
-      //   break;
-
-      // case "silver-phase":
-      //   Yanfly.Param.SMLGauge1 = 0;
-      //   Yanfly.Param.SMLGauge2 = 8;
-      //   break;
-
       // BOSS HP CUSTOMIZABLE
       // * GOLDEN SCORPION = 342
       case "GoldScorpion":
@@ -169,6 +158,9 @@ Game_Interpreter.prototype.pluginCommand = function (command, args) {
         break;
       case "Strey":
         Moghunter.bosshp_name_x = 382;
+        break;
+      case "CursedHorse":
+        Moghunter.bosshp_name_x = 324;
         break;
     }
   }
