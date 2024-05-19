@@ -563,9 +563,21 @@ MUSH_Achievements.prototype.createAchievementsList = function () {
       "Flame Initiate",
       6825,
       "", //  ! image file
-      "Kill 20 Enemies with" + "\\i[" + 1330 + "]" +  "Fire Elemental Skills or Items",
+      "Kill 25 Enemies with" + "\\i[" + 1330 + "]" +  "Fire Elemental Skills or Items",
       "4/0/150",
-      "2/67/20",
+      "2/67/25",
+      false,
+      false,
+      false,
+    ],
+
+     [
+      "Ember Extinguisher",
+      6826,
+      "", //  ! image file
+      "Kill 50 Enemies with" + "\\i[" + 1330 + "]" +  "Fire Elemental Skills or Items",
+      "4/0/150",
+      "2/67/50",
       false,
       false,
       false,
