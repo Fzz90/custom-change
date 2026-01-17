@@ -646,9 +646,6 @@ Game_Battler.prototype.performActionEnd = function (stateId) {
   this._stateDuration[stateId]--;
   _mog_atb_gBat_performActionEnd.call(this);
   this.setActionState("undecided");
-  Scene_Battle.prototype.canUpdateAtbMode = function () {
-    return true;
-  };
 };
 
 //=============================================================================
